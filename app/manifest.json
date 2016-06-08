@@ -14,5 +14,26 @@
       "scripts/background.js"
     ]
   },
-  "permissions": []
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "background"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "scripts/contentscript.js"
+      ],
+      "css": [
+        "styles/main.css"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ]
 }

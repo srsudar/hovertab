@@ -4,7 +4,7 @@
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "Indicates when links will open in a new tab",
+    "message": "Indicate when a link will open in a new tab",
     "description": "The description of the application"
   }
 }

@@ -1,3 +1,7 @@
 a[target="_blank"] {
-  cursor: copy;
+  cursor: alias;
+}
+
+body {
+  margin: 20px;
 }
