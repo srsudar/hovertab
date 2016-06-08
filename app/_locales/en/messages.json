@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "New Tab Indicator",
+    "message": "Hovertab",
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "Indicate when a link will open in a new tab",
+    "message": "Indicate when a link will open in a new tab as you hover over it",
     "description": "The description of the application"
   }
 }

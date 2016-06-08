@@ -1,5 +1,5 @@
 {
-  "name": "new-tab-indicator",
+  "name": "hovertab",
   "private": true,
   "engines": {
     "node": ">=0.8.0"
