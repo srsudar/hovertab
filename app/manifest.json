@@ -9,10 +9,7 @@
   },
   "default_locale": "en",
   "background": {
-    "scripts": [
-      "scripts/chromereload.js",
-      "scripts/background.js"
-    ]
+    "scripts": []
   },
   "permissions": [
     "tabs",
@@ -25,9 +22,6 @@
       "matches": [
         "http://*/*",
         "https://*/*"
-      ],
-      "js": [
-        "scripts/contentscript.js"
       ],
       "css": [
         "styles/main.css"
