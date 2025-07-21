@@ -1,3 +1,6 @@
-a[target="_blank"] {
-  cursor: alias;
+a[target="_blank"],
+[role="link"][target="_blank"],
+[onclick*="window.open"],
+[rel~="noopener"][rel~="noreferrer"] {
+  cursor: alias !important;
 }
