@@ -7,6 +7,7 @@ logs
 # grunt
 .tmp/
 /dist/
+hovertab.zip
 package/
 
 # Runtime data
